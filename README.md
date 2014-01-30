@@ -2,6 +2,10 @@
 
 Modular command line interface toolkit.
 
+This package does not include any code, it serves as a location to document the modules and as a mechanism for running tests across all the modules.
+
+It is also a convenient way to fetch all the modules if you wish to use them all.
+
 ## Install
 
 ```
@@ -20,7 +24,7 @@ To fetch all the modules and then run the tests:
 npm run refresh
 ```
 
-## Module
+## Modules
 
 ### Arguments
 
