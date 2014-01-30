@@ -22,6 +22,8 @@ npm run refresh
 
 ## Modules
 
+The toolkit is designed so you can use one or two modules or all of them depending upon your program complexity, pick and choose what you need, you can always include more as your requirements change.
+
 ### Arguments
 
 > Lightweight yet feature rich argument parser
@@ -38,7 +40,7 @@ The [command][command] module glues [define][define] and [argparse][argparse] ad
 
 > Chainable argument builder
 
-The [define][define] module allows you to define your programs commands, options and flags in an intuitive and flexible manner using chained method calls.
+The [define][define] module allows you to define your program's commands, options and flags in an intuitive and flexible manner using chained method calls.
 
 ### Error
 

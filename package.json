@@ -1,6 +1,6 @@
 {
   "name": "cli-toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modular command line interface toolkit",
   "author": "muji <noop@xpm.io>",
   "repository": {
