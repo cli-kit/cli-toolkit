@@ -1,0 +1,50 @@
+{
+  "name": "cli-toolkit",
+  "version": "0.0.1",
+  "description": "Modular command line interface toolkit",
+  "author": "muji <noop@xpm.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeformsystems/cli-toolkit"
+  },
+  "bugs": {
+    "url": "https://github.com/freeformsystems/cli-toolkit/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/freeformsystems/cli-toolkit/blob/master/LICENSE"
+  }],
+  "keywords": [
+    "cli",
+    "modular",
+    "toolkit",
+    "framework"
+  ],
+  "dependencies": {
+    "cli-argparse": "latest",
+    "cli-command": "latest",
+    "cli-define": "latest",
+    "cli-error": "latest",
+    "cli-locale": "latest",
+    "ttycolor": "latest",
+    "cli-util": "latest"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1",
+    "async": "~0.2.10"
+  },
+  "engine": [ "node >= 0.10.21" ],
+  "scripts": {
+    "refresh": "npm install && npm test",
+    "cli-argparse": "cd node_modules/cli-argparse && npm test && cd ../..",
+    "cli-command": "cd node_modules/cli-command && npm test && cd ../..",
+    "cli-define": "cd node_modules/cli-define && npm test && cd ../..",
+    "cli-error": "cd node_modules/cli-error && npm test && cd ../..",
+    "cli-locale": "cd node_modules/cli-locale && npm test && cd ../..",
+    "ttycolor": "cd node_modules/ttycolor && npm test && cd ../..",
+    "cli-util": "cd node_modules/cli-util && npm test && cd ../..",
+    "test": "npm run cli-argparse && npm run cli-command && npm run cli-define && npm run cli-error && npm run cli-locale && npm run ttycolor && npm run cli-util"
+  },
+  "config" : {}
+}
