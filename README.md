@@ -20,6 +20,12 @@ To fetch all the modules and then run the tests:
 npm run refresh
 ```
 
+## Design
+
+* Modular design
+* Thorough documentation
+* Comprensive test suite(s)
+
 ## Modules
 
 The toolkit is designed so you can use one or two modules or all of them depending upon your program complexity, pick and choose what you need, you can always include more as your requirements change.

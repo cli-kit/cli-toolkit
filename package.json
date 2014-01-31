@@ -32,7 +32,8 @@
   "devDependencies": {
     "mocha": "~1.17.0",
     "chai": "~1.8.1",
-    "async": "~0.2.10"
+    "async": "~0.2.10",
+    "istanbul": "~0.2.4"
   },
   "engine": [ "node >= 0.10.21" ],
   "scripts": {
