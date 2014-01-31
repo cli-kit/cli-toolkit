@@ -22,9 +22,10 @@ npm run refresh
 
 ## Design
 
-* Modular design
-* Thorough documentation
+* Modular architecture
+* Extensive documentation
 * Comprensive test suite(s)
+* 100% code coverage
 
 ## Modules
 
