@@ -2,24 +2,6 @@
 
 Modular command line interface toolkit.
 
-## Install
-
-```
-npm install cli-toolkit
-```
-
-## Test
-
-```
-npm test
-```
-
-To fetch all the modules and then run the tests:
-
-```
-npm run refresh
-```
-
 ## Design
 
 * Modular architecture
@@ -73,7 +55,25 @@ The [ttycolor][ttycolor] module provides support for ANSI escape sequences whils
 
 The [util][util] module provides some common functions shared across modules, typically for manipulating strings.
 
-### Notes
+## Install
+
+```
+npm install cli-toolkit
+```
+
+## Test
+
+```
+npm test
+```
+
+To fetch all the modules and then run the tests:
+
+```
+npm run refresh
+```
+
+## Notes
 
 This package does not include any code, it serves as a location to document the modules and as a mechanism for running tests across all the modules.
 
