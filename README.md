@@ -29,7 +29,7 @@ The [command][command] module glues [define][define] and [argparse][argparse] ad
 
 > Chainable argument builder
 
-The [define][define] module allows you to define your program's commands, options and flags in an intuitive and flexible manner using chained method calls.
+The [define][define] module allows you to define your program's commands, options and flags in an intuitive and flexible manner using chained method calls and a self-documenting convention.
 
 ### Error
 
