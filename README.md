@@ -31,6 +31,12 @@ The [command][command] module glues [define][define] and [argparse][argparse] ad
 
 The [define][define] module allows you to define your program's commands, options and flags in an intuitive and flexible manner using chained method calls and a self-documenting convention.
 
+### Environment
+
+> Environment variable management 
+
+The [env][env] module provides convenient access to environment variables, supports native type coercion and is designed specifically to allow programs to store user preferences or common command line arguments as prefixed environment variables.
+
 ### Error
 
 > Unified error handling
@@ -86,6 +92,7 @@ Everything is [MIT](http://en.wikipedia.org/wiki/MIT_License). Read the [license
 [argparse]: https://github.com/freeformsystems/cli-argparse
 [command]: https://github.com/freeformsystems/cli-command
 [define]: https://github.com/freeformsystems/cli-define
+[env]: https://github.com/freeformsystems/cli-env
 [error]: https://github.com/freeformsystems/cli-error
 [locale]: https://github.com/freeformsystems/cli-locale
 [ttycolor]: https://github.com/freeformsystems/ttycolor

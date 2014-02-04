@@ -24,6 +24,7 @@
     "cli-argparse": "latest",
     "cli-command": "latest",
     "cli-define": "latest",
+    "cli-env": "latest",
     "cli-error": "latest",
     "cli-locale": "latest",
     "ttycolor": "latest",
@@ -41,11 +42,12 @@
     "cli-argparse": "cd node_modules/cli-argparse && npm test && cd ../..",
     "cli-command": "cd node_modules/cli-command && npm test && cd ../..",
     "cli-define": "cd node_modules/cli-define && npm test && cd ../..",
+    "cli-env": "cd node_modules/cli-env && npm test && cd ../..",
     "cli-error": "cd node_modules/cli-error && npm test && cd ../..",
     "cli-locale": "cd node_modules/cli-locale && npm test && cd ../..",
     "ttycolor": "cd node_modules/ttycolor && npm test && cd ../..",
     "cli-util": "cd node_modules/cli-util && npm test && cd ../..",
-    "test": "npm run cli-argparse && npm run cli-command && npm run cli-define && npm run cli-error && npm run cli-locale && npm run ttycolor && npm run cli-util"
+    "test": "npm run cli-argparse && npm run cli-command && npm run cli-define && npm run cli-env && npm run cli-error && npm run cli-locale && npm run ttycolor && npm run cli-util"
   },
   "config" : {}
 }
